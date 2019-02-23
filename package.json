@@ -11,7 +11,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docz:build": "docz build",
+    "docz:dev": "docz dev"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +23,14 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "docz": "^0.13.7",
+    "docz-theme-default": "^0.13.7",
+    "remark-emoji": "^2.0.2",
+    "remark-images": "^0.17.0"
+  },
+  "resolutions": {
+    "ansi-styles": "^3.2.0"
+  }
 }
